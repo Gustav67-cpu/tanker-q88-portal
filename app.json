@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Tanker Q88 Portal",
+    "slug": "tanker-q88-portal",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "tankerq88",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B3D91"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tankerq88.portal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B3D91"
+      },
+      "package": "com.tankerq88.portal"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Tanker Q88 Portal",
+      "shortName": "Q88 Portal",
+      "themeColor": "#0B3D91",
+      "backgroundColor": "#FFFFFF",
+      "display": "standalone",
+      "startUrl": "/"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Tanker Q88 Portal to access your photos to upload Q88 images."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
